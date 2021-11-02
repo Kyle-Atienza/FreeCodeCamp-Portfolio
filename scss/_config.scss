@@ -1,0 +1,43 @@
+
+
+
+
+// colors
+$grey: #acacac;
+$dark: #222222;
+$white: #FFFFFF;
+$primary: #E54B4B;
+
+
+
+
+
+// fonts
+$Lato: 'Lato', sans-serif;
+$Jost: 'Jost', sans-serif;
+
+@mixin Lato-Black{
+    font-family: $Lato;
+    font-weight: 900;
+}
+
+@mixin Lato-Medium{
+    font-family: $Lato;
+    font-weight: 700;
+}
+
+@mixin Jost-Medium{
+    font-family: $Jost;
+    font-weight: 500;
+
+}
+
+@mixin Jost-Regular{
+    font-family: $Jost;
+    font-weight: 400;
+}
+
+@mixin Jost-Light {
+    font-family: $Jost;
+    font-weight: 300;
+}
